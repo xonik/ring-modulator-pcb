@@ -5973,7 +5973,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/231/151002386372-1222327.
 <part name="P-2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-15V" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+15V" device=""/>
 <part name="P-3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-15V" device=""/>
-<part name="C5" library="resistor" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="C2" library="resistor" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="U$1" library="joakim" deviceset="MA10-1J" device="P"/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+15V" device=""/>
 <part name="P-4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-15V" device=""/>
@@ -6124,7 +6124,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/231/151002386372-1222327.
 <instance part="P-3" gate="1" x="-17.78" y="27.94" smashed="yes">
 <attribute name="VALUE" x="-15.24" y="22.86" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C5" gate="G$1" x="-45.72" y="35.56" smashed="yes" rot="R180">
+<instance part="C2" gate="G$1" x="-45.72" y="35.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="-47.244" y="35.179" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-47.244" y="40.259" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -6290,7 +6290,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/231/151002386372-1222327.
 <pinref part="IC1" gate="P" pin="V-"/>
 <pinref part="P-3" gate="1" pin="-15V"/>
 <junction x="-17.78" y="30.48"/>
-<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="-45.72" y1="33.02" x2="-45.72" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="30.48" x2="-17.78" y2="30.48" width="0.1524" layer="91"/>
 </segment>
@@ -6319,7 +6319,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/231/151002386372-1222327.
 <segment>
 <pinref part="IC1" gate="P" pin="V+"/>
 <pinref part="P+5" gate="1" pin="+15V"/>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="-45.72" y1="40.64" x2="-45.72" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="45.72" x2="-17.78" y2="45.72" width="0.1524" layer="91"/>
 <junction x="-17.78" y="45.72"/>
