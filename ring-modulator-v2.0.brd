@@ -182,7 +182,7 @@
 <text x="27.305" y="16.51" size="1.778" layer="26" font="vector" rot="MR0">Ring modulator</text>
 <circle x="13.335" y="14.2875" radius="3" width="0.3048" layer="51"/>
 <hole x="13.335" y="14.2875" drill="3.2"/>
-<text x="29.21" y="19.05" size="1.016" layer="25" font="vector" rot="R180">1</text>
+<text x="28.8925" y="19.05" size="1.016" layer="25" font="vector" rot="R180">1</text>
 <text x="19.05" y="12.065" size="1.016" layer="25" font="vector" rot="R180">C2</text>
 <wire x1="17.145" y1="7.62" x2="16.51" y2="7.62" width="0.1016" layer="26"/>
 <wire x1="21.59" y1="7.62" x2="22.5425" y2="7.62" width="0.1016" layer="26"/>
