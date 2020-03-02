@@ -3630,7 +3630,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <element name="U$1" library="joakim" package="SIP-PIN10-1J" value="MA10-1JP" x="17.145" y="3.175" smashed="yes">
 <attribute name="VALUE" x="4.445" y="-1.016" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="U$2" library="joakim" package="XONIK_LOGO_18" value="XONIK-LOGO18" x="-0.3175" y="-5.3975" smashed="yes"/>
 <element name="U$3" library="joakim" package="XONIK_LOGO_18" value="" x="26.3525" y="19.3675" smashed="yes" rot="MR0"/>
 </elements>
 <signals>

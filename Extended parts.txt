@@ -1,0 +1,10 @@
+Extended parts, ring modulator
+100u
+MC1496
+
+Missing in bom:
+IC1, TL072
+
+Wrong direction:
+U1 is 90, should be 0
+C1 is 90 should be 270 (wrong polarity)
