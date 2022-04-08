@@ -3781,10 +3781,10 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <via x="28.575" y="19.3675" extent="1-16" drill="0.35"/>
 <wire x1="28.575" y1="19.3675" x2="26.035" y2="19.3675" width="0.508" layer="16"/>
 <polygon width="0.3048" layer="16">
-<vertex x="34.6075" y="24.765"/>
-<vertex x="-0.3175" y="24.765"/>
-<vertex x="-0.3175" y="-0.635"/>
-<vertex x="34.6075" y="-0.635"/>
+<vertex x="34.29" y="24.13"/>
+<vertex x="0" y="24.13"/>
+<vertex x="0" y="0"/>
+<vertex x="34.29" y="0"/>
 </polygon>
 </signal>
 <signal name="-15V">

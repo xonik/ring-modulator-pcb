@@ -18147,6 +18147,20 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="7.62" y1="27.94" x2="7.62" y2="33.02" width="0.1524" layer="97"/>
 <text x="17.78" y="22.86" size="1.778" layer="97">200 / 220R</text>
 <text x="15.24" y="17.78" size="1.778" layer="97" rot="R180">-15V</text>
+<text x="-53.34" y="66.04" size="1.778" layer="97">DC inputs, add 1uF 
+series caps for AC</text>
+<text x="154.94" y="63.5" size="1.778" layer="97">DC output, add a 1uF 
+series cap for AC</text>
+<text x="-78.74" y="81.28" size="1.778" layer="97">Trimming:
+Connect input caps (AC)
+
+Connect 1kHz sine to Carrier. 
+Trim 200R (signal trim) until output is removed
+
+Connect 1kHz sine to Signal. 
+Trim 500R (carrier trim) until output is removed
+
+</text>
 </plain>
 <instances>
 <instance part="U1" gate="A" x="60.96" y="58.42" smashed="yes">
@@ -18641,6 +18655,10 @@ Source: AVX .. aphvc.pdf</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
