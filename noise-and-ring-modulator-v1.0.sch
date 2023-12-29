@@ -26921,7 +26921,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <wire x1="12.7" y1="109.22" x2="17.78" y2="109.22" width="0.1524" layer="97"/>
 <wire x1="17.78" y1="109.22" x2="17.78" y2="104.14" width="0.1524" layer="97"/>
 <text x="17.78" y="111.76" size="1.778" layer="97">470 / 500R</text>
-<text x="10.16" y="119.38" size="1.778" layer="97">+15V</text>
+<text x="10.16" y="119.38" size="1.778" layer="97">+12V</text>
 <wire x1="17.78" y1="27.94" x2="12.7" y2="27.94" width="0.1524" layer="97"/>
 <wire x1="15.24" y1="25.4" x2="12.7" y2="27.94" width="0.1524" layer="97"/>
 <wire x1="12.7" y1="27.94" x2="10.16" y2="25.4" width="0.1524" layer="97"/>
@@ -26932,7 +26932,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <wire x1="12.7" y1="27.94" x2="7.62" y2="27.94" width="0.1524" layer="97"/>
 <wire x1="7.62" y1="27.94" x2="7.62" y2="33.02" width="0.1524" layer="97"/>
 <text x="17.78" y="22.86" size="1.778" layer="97">200 / 220R</text>
-<text x="15.24" y="17.78" size="1.778" layer="97" rot="R180">-15V</text>
+<text x="15.24" y="17.78" size="1.778" layer="97" rot="R180">-12V</text>
 <text x="-53.34" y="66.04" size="1.778" layer="97">DC inputs, add 1uF 
 series caps for AC</text>
 <text x="154.94" y="63.5" size="1.778" layer="97">DC output, add a 1uF 
