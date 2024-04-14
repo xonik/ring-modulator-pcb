@@ -10730,6 +10730,22 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 <pad name="6" x="6.35" y="0" drill="1.016" shape="offset" rot="R270"/>
 <rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
 </package>
+<package name="MA06N-1J">
+<pad name="1" x="-6.35" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="2" x="-3.81" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="3" x="-1.27" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="4" x="1.27" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="5" x="3.81" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<text x="-7.62" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
+<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
+<pad name="6" x="6.35" y="0" drill="1.016" shape="octagon" rot="R90"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOD323" urn="urn:adsk.eagle:package:30992/2" type="model">
@@ -11226,6 +11242,19 @@ high speed (Philips)</description>
 </technologies>
 </device>
 <device name="P" package="SIP-PIN06-1J">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="N" package="MA06N-1J">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -29388,8 +29417,8 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-TRIMM" device="3296X" package3d_urn="urn:adsk.eagle:package:26034/1" value="200R"/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="-12V" device=""/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
-<part name="X2" library="joakim" deviceset="MA06-1J" device="C"/>
-<part name="X3" library="joakim" deviceset="MA06-1J" device="C"/>
+<part name="X2" library="joakim" deviceset="MA06-1J" device="N" value="MA06-1JN"/>
+<part name="X3" library="joakim" deviceset="MA06-1J" device="N" value="MA06-1JN"/>
 </parts>
 <sheets>
 <sheet>
