@@ -24023,6 +24023,10 @@ Connect 1kHz sine to Signal.
 Trim 500R (carrier trim) until output is removed
 
 </text>
+<text x="-2.54" y="10.16" size="1.778" layer="91">Yusynth uses a 220R here
+but tests show that a 500R
+can be used, the trimming
+range is just increased.</text>
 </plain>
 <instances>
 <instance part="U1" gate="A" x="60.96" y="58.42" smashed="yes">
