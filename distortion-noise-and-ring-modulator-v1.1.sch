@@ -23927,7 +23927,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="68k"/>
 <part name="9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="33k"/>
 <part name="10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
-<part name="11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="3k"/>
+<part name="11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="3k3"/>
 <part name="12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1M"/>
 <part name="13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1k"/>
 <part name="14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="20k"/>
@@ -24630,7 +24630,6 @@ ok with 1/10w resistors</text>
 <text x="-7.62" y="55.88" size="1.778" layer="91">Caps &gt;= 22nF are
 not available as 
 C0G in 0603 or 0402</text>
-<text x="60.96" y="48.26" size="1.778" layer="91">TODO: Simulate 3k3 instead of 3k here</text>
 </plain>
 <instances>
 <instance part="1" gate="G$1" x="48.26" y="93.98" smashed="yes" rot="R90">
