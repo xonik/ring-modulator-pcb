@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -27001,7 +27001,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="-12V" device=""/>
-<part name="R22" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_EU-" device="S64W" package3d_urn="urn:adsk.eagle:package:22708/1"/>
+<part name="R22" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_EU-" device="S64W" package3d_urn="urn:adsk.eagle:package:22708/1" value="200k"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="-12V" device=""/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
@@ -27601,7 +27601,8 @@ Trim 500R (carrier trim) until output is removed
 for good amplitude adjustability
 NB: 2.43k in simulation???
 
-Update: May need even higher. </text>
+Update: May need even higher, 
+set to 200k in voice schematics</text>
 <text x="127" y="55.88" size="1.778" layer="97">Approximated
 3dB/oct filter</text>
 <text x="127" y="7.62" size="1.778" layer="97">12dB inverting
@@ -27626,6 +27627,9 @@ max current when feeding into a 10k resistor is
 650uA = 422uW. 
 
 ok with 1/10w resistors</text>
+<text x="-7.62" y="55.88" size="1.778" layer="91">Caps &gt;= 22nF are
+not available as 
+C0G in 0603 or 0402</text>
 </plain>
 <instances>
 <instance part="1" gate="G$1" x="48.26" y="93.98" smashed="yes" rot="R90">
@@ -27776,9 +27780,9 @@ ok with 1/10w resistors</text>
 <instance part="SUPPLY6" gate="G$1" x="15.24" y="-2.54" smashed="yes">
 <attribute name="VALUE" x="12.065" y="-7.239" size="1.778" layer="96"/>
 </instance>
-<instance part="R22" gate="1" x="73.66" y="114.3" smashed="yes" rot="MR270">
-<attribute name="NAME" x="77.47" y="120.269" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="77.47" y="118.11" size="1.778" layer="96" rot="MR0"/>
+<instance part="R22" gate="1" x="73.66" y="116.84" smashed="yes" rot="MR270">
+<attribute name="NAME" x="74.93" y="120.269" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="82.55" y="120.65" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="C13" gate="G$1" x="15.24" y="5.08" smashed="yes" rot="R180">
 <attribute name="NAME" x="13.716" y="4.699" size="1.778" layer="95" rot="R180"/>
@@ -27808,7 +27812,7 @@ ok with 1/10w resistors</text>
 <segment>
 <pinref part="2" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="93.98" x2="73.66" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="109.22" x2="73.66" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="111.76" x2="73.66" y2="101.6" width="0.1524" layer="91"/>
 <junction x="73.66" y="101.6"/>
 <label x="73.66" y="104.14" size="1.778" layer="95" rot="R90"/>
 <pinref part="IC1" gate="C" pin="-IN"/>
@@ -27958,11 +27962,11 @@ ok with 1/10w resistors</text>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="88.9" x2="93.98" y2="88.9" width="0.1524" layer="91"/>
 <label x="83.82" y="104.14" size="1.778" layer="95" rot="R90"/>
-<wire x1="83.82" y1="114.3" x2="83.82" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="116.84" x2="83.82" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="C" pin="OUT"/>
 <junction x="88.9" y="91.44"/>
 <pinref part="R22" gate="1" pin="A"/>
-<wire x1="83.82" y1="114.3" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="116.84" x2="78.74" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
