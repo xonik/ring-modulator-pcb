@@ -22746,21 +22746,6 @@ set</text>
 <pinref part="IC3" gate="B" pin="IABC"/>
 </segment>
 </net>
-<net name="N$29" class="0">
-<segment>
-<wire x1="12.7" y1="12.7" x2="10.16" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$30" class="0">
-<segment>
-<wire x1="12.7" y1="15.24" x2="10.16" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$31" class="0">
-<segment>
-<wire x1="12.7" y1="17.78" x2="10.16" y2="17.78" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="DIST_OUT" class="0">
 <segment>
 <pinref part="R48" gate="G$1" pin="1"/>
@@ -22806,21 +22791,6 @@ set</text>
 <pinref part="R41" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="40.64" x2="38.1" y2="40.64" width="0.1524" layer="91"/>
 <label x="38.1" y="40.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$33" class="0">
-<segment>
-<wire x1="12.7" y1="5.08" x2="10.16" y2="5.08" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$34" class="0">
-<segment>
-<wire x1="12.7" y1="10.16" x2="10.16" y2="10.16" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$35" class="0">
-<segment>
-<wire x1="12.7" y1="7.62" x2="10.16" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
