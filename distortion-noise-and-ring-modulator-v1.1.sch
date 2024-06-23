@@ -21366,7 +21366,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="T1" library="joakim" deviceset="NOISE-2N3904" device=""/>
+<part name="T1" library="joakim" deviceset="NOISE-2N3904" device="" value="NOISE-2N3904-DNM"/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="-12V" device=""/>
@@ -21409,8 +21409,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-TRIMM" device="3296X" package3d_urn="urn:adsk.eagle:package:26034/1" value="500R"/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="-12V" device=""/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
-<part name="X1" library="joakim" deviceset="MA06-1J" device="N" value="MA06-1JN"/>
-<part name="X2" library="joakim" deviceset="MA06-1J" device="N" value="MA06-1JN"/>
+<part name="X1" library="joakim" deviceset="MA06-1J" device="N" value="MA06-1JN-DNM"/>
+<part name="X2" library="joakim" deviceset="MA06-1J" device="N" value="MA06-1JN-DNM"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="47uF"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="47uF"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
