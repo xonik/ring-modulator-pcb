@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="12.5" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="3.125" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1647,7 +1647,7 @@ Source:  Data sheet </description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="jlcpcb-2layers">
+<designrules name="jlcpcb-2layers *">
 <description language="en">&lt;b&gt;JLCPCB design rules (2 layers)&lt;/b&gt;
 &lt;ul&gt;
 &lt;li&gt;Board thickness: 1.6mm&lt;/li&gt;
@@ -1688,7 +1688,7 @@ Source:  Data sheet </description>
 <param name="rlMaxPadInner" value="20mil"/>
 <param name="rlMinPadBottom" value="10mil"/>
 <param name="rlMaxPadBottom" value="80mil"/>
-<param name="rlMinViaOuter" value="3mil"/>
+<param name="rlMinViaOuter" value="4mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
 <param name="rlMinViaInner" value="8mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
@@ -2339,7 +2339,7 @@ Source:  Data sheet </description>
 <wire x1="22.86" y1="5.23875" x2="23.83625" y2="5.23875" width="0.254" layer="1"/>
 <wire x1="24.0975" y1="5.5" x2="23.83625" y2="5.23875" width="0.254" layer="1"/>
 <wire x1="24.0975" y1="5.5" x2="23.8125" y2="5.5" width="0.254" layer="1"/>
-<via x="14.76375" y="8.5725" extent="1-16" drill="0.3302"/>
+<via x="14.9225" y="8.5725" extent="1-16" drill="0.3302"/>
 <wire x1="27.78125" y1="16.16875" x2="27.78125" y2="15.39875" width="0.254" layer="1"/>
 <via x="27.78125" y="15.39875" extent="1-16" drill="0.3302"/>
 <wire x1="30.95625" y1="5.85" x2="30.95625" y2="5.08" width="0.254" layer="1"/>
@@ -2521,17 +2521,17 @@ Source:  Data sheet </description>
 <wire x1="26.9875" y1="7.77875" x2="27.46375" y2="8.255" width="0.254" layer="16"/>
 <via x="29.68625" y="5.08" extent="1-16" drill="0.3302"/>
 <via x="19.05" y="16.51" extent="1-16" drill="0.3302"/>
-<wire x1="19.05" y1="16.51" x2="19.05" y2="13.97" width="0.254" layer="16"/>
+<wire x1="19.05" y1="16.51" x2="19.05" y2="14.049375" width="0.254" layer="16"/>
 <wire x1="19.05" y1="16.51" x2="19.05" y2="17.0425" width="0.254" layer="1"/>
 <wire x1="19.05" y1="17.0425" x2="18.7325" y2="17.36" width="0.254" layer="1"/>
 <wire x1="18.7325" y1="17.36" x2="18.0975" y2="17.36" width="0.254" layer="1"/>
-<via x="20.6375" y="12.3825" extent="1-16" drill="0.3302"/>
-<wire x1="20.6375" y1="13.8938" x2="20.6375" y2="12.3825" width="0.254" layer="1"/>
-<wire x1="19.05" y1="13.97" x2="20.6375" y2="12.3825" width="0.254" layer="16"/>
-<wire x1="20.6375" y1="12.3825" x2="25.4" y2="12.3825" width="0.254" layer="1"/>
-<via x="25.4" y="12.3825" extent="1-16" drill="0.3302"/>
-<wire x1="25.4" y1="12.3825" x2="26.67" y2="11.1125" width="0.254" layer="16"/>
-<wire x1="26.67" y1="11.1125" x2="26.67" y2="9.8425" width="0.254" layer="16"/>
+<via x="20.6375" y="12.461875" extent="1-16" drill="0.3302"/>
+<wire x1="20.6375" y1="13.8938" x2="20.6375" y2="12.461875" width="0.254" layer="1"/>
+<wire x1="19.05" y1="14.049375" x2="20.6375" y2="12.461875" width="0.254" layer="16"/>
+<wire x1="25.4" y1="12.461875" x2="20.6375" y2="12.461875" width="0.254" layer="1"/>
+<via x="25.4" y="12.461875" extent="1-16" drill="0.3302"/>
+<wire x1="25.4" y1="12.461875" x2="26.67" y2="11.191875" width="0.254" layer="16"/>
+<wire x1="26.67" y1="11.191875" x2="26.67" y2="9.8425" width="0.254" layer="16"/>
 <via x="26.67" y="9.8425" extent="1-16" drill="0.3302"/>
 </signal>
 <signal name="N$15">
@@ -2567,12 +2567,13 @@ Source:  Data sheet </description>
 <wire x1="28.2125" y1="8.605" x2="28.2125" y2="7.2125" width="0.254" layer="1"/>
 <wire x1="28.575" y1="6.85" x2="28.2125" y2="7.2125" width="0.254" layer="1"/>
 <contactref element="IC1" pad="8"/>
-<wire x1="28.8925" y1="13.335" x2="30.7975" y2="15.24" width="0.254" layer="16"/>
+<wire x1="30.7975" y1="15.24" x2="28.8925" y2="13.335" width="0.254" layer="16"/>
+<wire x1="30.7975" y1="15.24" x2="30.876875" y2="15.24" width="0.254" layer="16"/>
 <wire x1="28.8925" y1="10.16" x2="28.235" y2="9.5025" width="0.254" layer="16"/>
 <wire x1="28.8925" y1="13.335" x2="28.8925" y2="10.16" width="0.254" layer="16"/>
-<via x="30.7975" y="15.24" extent="1-16" drill="0.3302"/>
-<wire x1="30.95625" y1="16.01" x2="30.95625" y2="15.39875" width="0.254" layer="1"/>
-<wire x1="30.95625" y1="15.39875" x2="30.7975" y2="15.24" width="0.254" layer="1"/>
+<via x="30.876875" y="15.24" extent="1-16" drill="0.3302"/>
+<wire x1="30.95625" y1="16.01" x2="30.95625" y2="15.319375" width="0.254" layer="1"/>
+<wire x1="30.95625" y1="15.319375" x2="30.876875" y2="15.24" width="0.254" layer="1"/>
 <wire x1="28.2125" y1="9.48" x2="28.235" y2="9.5025" width="0.254" layer="1"/>
 <wire x1="28.2125" y1="8.605" x2="28.2125" y2="9.48" width="0.254" layer="1"/>
 </signal>
@@ -2582,14 +2583,12 @@ Source:  Data sheet </description>
 <contactref element="IC1" pad="6"/>
 <wire x1="28.8625" y1="14.255" x2="28.8625" y2="14.876" width="0.254" layer="1"/>
 <wire x1="28.8625" y1="14.876" x2="29.05125" y2="15.06475" width="0.254" layer="1"/>
-<wire x1="30.12695" y1="15.06475" x2="30.3022" y2="15.24" width="0.254" layer="1"/>
-<wire x1="30.3022" y1="15.24" x2="30.3022" y2="15.4451625" width="0.254" layer="1"/>
-<wire x1="30.3022" y1="15.4451625" x2="30.32125" y2="15.4642125" width="0.254" layer="1"/>
+<wire x1="30.12695" y1="15.06475" x2="30.32125" y2="15.25905" width="0.254" layer="1"/>
+<wire x1="30.32125" y1="15.25905" x2="30.32125" y2="18.57375" width="0.254" layer="1"/>
 <wire x1="29.5275" y1="18.57375" x2="30.32125" y2="18.57375" width="0.254" layer="1"/>
 <wire x1="29.5275" y1="18.57375" x2="29.36875" y2="18.415" width="0.254" layer="1"/>
 <wire x1="29.36875" y1="18.415" x2="29.36875" y2="17.6775" width="0.254" layer="1"/>
 <wire x1="29.05125" y1="15.06475" x2="30.12695" y2="15.06475" width="0.254" layer="1"/>
-<wire x1="30.32125" y1="15.4642125" x2="30.32125" y2="18.57375" width="0.254" layer="1"/>
 <wire x1="30.32125" y1="18.57375" x2="30.63875" y2="18.57375" width="0.254" layer="1"/>
 <wire x1="30.63875" y1="18.57375" x2="30.95625" y2="18.25625" width="0.254" layer="1"/>
 <wire x1="30.95625" y1="18.25625" x2="30.95625" y2="17.01" width="0.254" layer="1"/>
@@ -2969,16 +2968,16 @@ Source:  Data sheet </description>
 <contactref element="U1" pad="14"/>
 <contactref element="C1" pad="1"/>
 <via x="18.0975" y="10.795" extent="1-16" drill="0.3302"/>
-<via x="18.0975" y="12.3825" extent="1-16" drill="0.3302"/>
-<wire x1="18.0975" y1="12.3825" x2="18.0975" y2="10.795" width="0.508" layer="16"/>
-<wire x1="18.0975" y1="13.8938" x2="18.0975" y2="12.3825" width="0.508" layer="1"/>
+<via x="18.0975" y="12.461875" extent="1-16" drill="0.3302"/>
+<wire x1="18.0975" y1="12.461875" x2="18.0975" y2="10.795" width="0.508" layer="16"/>
+<wire x1="18.0975" y1="13.8938" x2="18.0975" y2="12.461875" width="0.508" layer="1"/>
 <via x="8.255" y="10.795" extent="1-16" drill="0.3302"/>
 <wire x1="18.0975" y1="10.795" x2="17.78" y2="10.795" width="0.508" layer="1"/>
-<wire x1="17.78" y1="10.795" x2="16.51" y2="9.525" width="0.508" layer="1"/>
-<wire x1="16.51" y1="9.525" x2="14.2875" y2="9.525" width="0.508" layer="1"/>
+<wire x1="17.78" y1="10.795" x2="16.35125" y2="9.36625" width="0.508" layer="1"/>
+<wire x1="16.35125" y1="9.36625" x2="14.44625" y2="9.36625" width="0.508" layer="1"/>
 <wire x1="13.0175" y1="10.795" x2="10.795" y2="10.795" width="0.508" layer="1"/>
 <wire x1="10.795" y1="10.795" x2="8.255" y2="10.795" width="0.508" layer="1"/>
-<wire x1="14.2875" y1="9.525" x2="13.0175" y2="10.795" width="0.508" layer="1"/>
+<wire x1="14.44625" y1="9.36625" x2="13.0175" y2="10.795" width="0.508" layer="1"/>
 <wire x1="30.1625" y1="10.795" x2="26.9875" y2="10.795" width="0.508" layer="1"/>
 <wire x1="26.9875" y1="10.795" x2="18.0975" y2="10.795" width="0.508" layer="1"/>
 <wire x1="26.9875" y1="10.93" x2="26.9875" y2="10.795" width="0.508" layer="1"/>
